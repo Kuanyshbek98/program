@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <!-- ---------------------------------------------------------- -->
+  <body>
+    <header>
+      <div class="header">
+        <img class="header__logo" src="./img/header_logo.png" alt="" />
+        <div class="header__menu menu">
+          <h1 class="menu__title">Пойск и бронирование авиябилетов</h1>
+          <div class="menu__blok">
+            <a href="#"
+              ><button class="link__choice link__choice_button">
+                выбор вариянта
+              </button></a
+            >
+            <img src="./img/strelka.png" alt="" />
+            <a href="#"
+              ><button class="link__passengers link__choice_button">
+                пассажиры
+              </button></a
+            >
+            <img src="./img/strelka.png" alt="" />
+            <a href="#">
+              <button class="link__payment link__choice_button">
+                способ оплаты
+              </button></a
+            >
+            <img src="./img/strelka.png" alt="" />
+            <a href="#">
+              <button class="link__confirmation link__choice_button">
+                подтверждение
+              </button></a
+            >
+          </div>
+        </div>
+        <div class="header__info">
+          <ul>
+            <li>
+              <a href="tel:+77272255055">
+                +7(727)
+                <b>22 55 055</b></a
+              >
+            </li>
+            <li><a href="tel:+77010653333">+7(701) 065 33 33</a></li>
+            <li><a href="mail:help@aviata.kz">help@aviata.kz</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="mobil__menu menu">
+      <h1 class="menu__title">Пойск и бронирование авиябилетов</h1>
+    </div>
+    <!-- ---------------------------------------------------------- -->
+    <div class="search">
+      <div class="container">
+        <div class="search__wrapper">
+          <div class="search__button">
+            <button class="search__roundtrip">ТУДА И ОБРАТНО</button>
+            <button class="search__one-way">В ОДНУ СТОРОНУ</button>
+          </div>
+          <div class="search__choise">
+            <input class="search_input" type="text" value="Алматы, Казахстан" />
+            <img src="./img/exchange.png" alt=" " />
+            <input class="search_input" type="text" value="Астана, Казахстан" />
+            <div class="mobil-data">
+              <input
+                class="search_input search_input_d"
+                type="text"
+                value="08.11.2018"
+              />
+              <input
+                class="search_input search_input_d"
+                type="text"
+                value="16.11.2018"
+              />
+            </div>
+            <div class="input-data">
+              <input
+                class="search_input search_input_d"
+                type="text"
+                value="08.11.2018"
+              />
+              <input
+                class="search_input search_input_d"
+                type="text"
+                value="16.11.2018"
+              />
+            </div>
+            <select class="search_input">
+              <option selected="selected">Молодежный тариф</option>
+              <option>2 пассажира</option>
+            </select>
+            <button class="search__choise_button">Найти</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------- -->
+    <div class="search-filter filter">
+      <button class="search-filter__search filter">
+        <img src="./img/icon_Search.png" alt="" />Новый пойск
+      </button>
+      <button class="search-filter__filter filter">
+        <img src="./img/icon-close-filter.png" alt="" />Фильтры
+      </button>
+    </div>
+    <!-- ---------------------------------------------------------- -->
+    <div class="aside">
+      <div class="container">
+        <div class="aside__wrapper">
+          <div class="aside__price price">
+            <img class="price_img" src="./img/vector.png" alt="" />
+            Отслеживать изменения цен
+          </div>
+          <div class="aside__price price">
+            <img class="price_img" src="./img/shape.png" alt="" />
+            Посмотреть цены на соседние даты (+- 3дня)
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------- -->
+    <div class="page">
+      <div class="container">
+        <div class="page__wrapper">
+          <form class="page__sidebar sidebar">
+            <div class="sidebar__filter">
+              <ul type="checkbox" class="tariff sidebar__tariff">
+                <li class="sidebar tariff__text">Опции тарифа</li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    Только прямые
+                  </label>
+                </li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    Только с багажом
+                  </label>
+                </li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    Только возвратные
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar__filter">
+              <ul type="checkbox" class="tariff sidebar__tariff">
+                <li class="sidebar tariff__text">Авиакомпании</li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    Все
+                  </label>
+                </li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    Air Astana
+                  </label>
+                </li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    Bek Air
+                  </label>
+                </li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    Fly Arystan
+                  </label>
+                </li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    SCAT Airlines
+                  </label>
+                </li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    Lufthansa
+                  </label>
+                </li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    Turkish Airlines
+                  </label>
+                </li>
+                <li>
+                  <label class="tariff__check">
+                    <input
+                      class="sidebar sidebar__tariff_checkbox"
+                      type="checkbox"
+                    />
+                    <span class="chek_box"></span>
+                    China Southern Air
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <button type="reset" class="sidebar__button">
+              Сбросить все фильтры
+            </button>
+          </form>
+          <!-- ---------------------------------------------------------- -->
+          <div class="page__section">
+            <div class="section__row row">
+              <div class="row__info info">
+                <div class="info__wrapper">
+                  <div class="info__avatar">
+                    <img src="/img/kc.png" alt="" />
+                    <label class="avatar__text"> AirAstana</label>
+                  </div>
+                  <div class="info__inner">
+                    <label>25 ноя, вс</label>
+                    <label class="inner__text">23:25</label>
+                  </div>
+                  <div class="info__way">
+                    <div class="way__wrapper">
+                      <label class="way__tagline">ALA</label>
+                      <label class="way__text">4 ч 20 м</label>
+                      <label class="way__tagline">TSE</label>
+                    </div>
+                    <img src="./img/line.png" alt="" />
+                    <div class="way__wrap">
+                      <label>через Шымкент, 1 ч 50 м</label>
+                    </div>
+                  </div>
+                  <div class="info__inner">
+                    <label>26 ноя, вс</label>
+                    <label class="inner__text">03:45</label>
+                  </div>
+                </div>
+                <div class="info__wrap wrap">
+                  <a href="" class="wrap__link">Детали перелета</a>
+                  <a href="" class="wrap__link">Условия тарифа</a>
+                  <label class="wrap__label"
+                    ><img src="img/no.png" alt="" /> невозвратный</label
+                  >
+                </div>
+              </div>
+
+              <div class="row__price price">
+                <label class="price__snippet">590 240 ₸</label>
+                <button class="price__btn">Выбрать</button>
+                <label class="price__desc">Цена за всех пассажиров</label>
+                <div class="">
+                  <label class="price__excerpt">Нет багажа</label>
+                  <button class="price__control">+ Добавить багаж</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="section__row row">
+              <div class="row__info info">
+                <div class="info__wrapper">
+                  <div class="info__avatar">
+                    <img src="/img/kc.png" alt="" />
+                    <label class="avatar__text"> AirAstana</label>
+                  </div>
+                  <div class="info__inner">
+                    <label>25 ноя, вс</label>
+                    <label class="inner__text">23:25</label>
+                  </div>
+                  <div class="info__way">
+                    <div class="way__wrapper">
+                      <label class="way__tagline">ALA</label>
+                      <label class="way__text">4 ч 20 м</label>
+                      <label class="way__tagline">TSE</label>
+                    </div>
+                    <img src="./img/line.png" alt="" />
+                    <div class="way__wrap">
+                      <label>через Шымкент, 1 ч 50 м</label>
+                    </div>
+                  </div>
+                  <div class="info__inner">
+                    <label>26 ноя, вс</label>
+                    <label class="inner__text">03:45</label>
+                  </div>
+                </div>
+                <div class="info__wrap wrap">
+                  <a href="" class="wrap__link">Детали перелета</a>
+                  <a href="" class="wrap__link">Условия тарифа</a>
+                  <label class="wrap__label"
+                    ><img src="img/no.png" alt="" /> невозвратный</label
+                  >
+                </div>
+              </div>
+
+              <div class="row__price price">
+                <label class="price__snippet">590 240 ₸</label>
+                <button class="price__btn">Выбрать</button>
+                <label class="price__desc">Цена за всех пассажиров</label>
+                <div class="">
+                  <label class="price__excerpt">Нет багажа</label>
+                  <button class="price__control">+ Добавить багаж</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="section__row row">
+              <div class="row__info info">
+                <div class="info__wrapper">
+                  <div class="info__avatar">
+                    <img src="/img/kc.png" alt="" />
+                    <label class="avatar__text"> AirAstana</label>
+                  </div>
+                  <div class="info__inner">
+                    <label>25 ноя, вс</label>
+                    <label class="inner__text">23:25</label>
+                  </div>
+                  <div class="info__way">
+                    <div class="way__wrapper">
+                      <label class="way__tagline">ALA</label>
+                      <label class="way__text">4 ч 20 м</label>
+                      <label class="way__tagline">TSE</label>
+                    </div>
+                    <img src="./img/line.png" alt="" />
+                    <div class="way__wrap">
+                      <label>через Шымкент, 1 ч 50 м</label>
+                    </div>
+                  </div>
+                  <div class="info__inner">
+                    <label>26 ноя, вс</label>
+                    <label class="inner__text">03:45</label>
+                  </div>
+                </div>
+                <div class="info__wrap wrap">
+                  <a href="" class="wrap__link">Детали перелета</a>
+                  <a href="" class="wrap__link">Условия тарифа</a>
+                  <label class="wrap__label"
+                    ><img src="img/no.png" alt="" /> невозвратный</label
+                  >
+                </div>
+              </div>
+
+              <div class="row__price price">
+                <label class="price__snippet">590 240 ₸</label>
+                <button class="price__btn">Выбрать</button>
+                <label class="price__desc">Цена за всех пассажиров</label>
+                <div class="">
+                  <label class="price__excerpt">Нет багажа</label>
+                  <button class="price__control">+ Добавить багаж</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="section__row row">
+              <div class="row__info info">
+                <div class="info__wrapper">
+                  <div class="info__avatar">
+                    <img src="/img/kc.png" alt="" />
+                    <label class="avatar__text"> AirAstana</label>
+                  </div>
+                  <div class="info__inner">
+                    <label>25 ноя, вс</label>
+                    <label class="inner__text">23:25</label>
+                  </div>
+                  <div class="info__way">
+                    <div class="way__wrapper">
+                      <label class="way__tagline">ALA</label>
+                      <label class="way__text">4 ч 20 м</label>
+                      <label class="way__tagline">TSE</label>
+                    </div>
+                    <img src="./img/line.png" alt="" />
+                    <div class="way__wrap">
+                      <label>через Шымкент, 1 ч 50 м</label>
+                    </div>
+                  </div>
+                  <div class="info__inner">
+                    <label>26 ноя, вс</label>
+                    <label class="inner__text">03:45</label>
+                  </div>
+                </div>
+                <div class="info__wrap wrap">
+                  <a href="" class="wrap__link">Детали перелета</a>
+                  <a href="" class="wrap__link">Условия тарифа</a>
+                  <label class="wrap__label"
+                    ><img src="img/no.png" alt="" /> невозвратный</label
+                  >
+                </div>
+              </div>
+
+              <div class="row__price price">
+                <label class="price__snippet">590 240 ₸</label>
+                <button class="price__btn">Выбрать</button>
+                <label class="price__desc">Цена за всех пассажиров</label>
+                <div class="">
+                  <label class="price__excerpt">Нет багажа</label>
+                  <button class="price__control">+ Добавить багаж</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------- -->
+    </div>
+  </body>
+</html>

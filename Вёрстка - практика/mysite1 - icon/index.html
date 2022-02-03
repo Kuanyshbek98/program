@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scale=o"
+    />
+    <!--<meta name="viewport" content="width=1920" />-->
+    <title>mysite</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav__link">
+          <div id="burger" onclick="return valid()">
+            <img src="./img/burger.jpg" />
+          </div>
+          <input
+            name="name"
+            id="name"
+            class="search__input"
+            placeholder=" "
+            maxlength="10"
+          />
+          <div class="menu">
+            <select id="list">
+              <option selected="selected">Буларусь</option>
+              <option>Оценки</option>
+              <option>Оценки</option>
+              <option>Оценки</option>
+            </select>
+          </div>
+          <div class="menu"><a href="video.html">Видео</a></div>
+
+          <div class="menu">
+            <a href="features.html">Термины</a>
+          </div>
+          <div class="logo">
+            <a href="index.html"><img src="./img/logo.png" /></a>
+          </div>
+          <!-- <div id="search-burger"></div>-->
+          <!-- <span><img src="./img/picture__x.png" /></span>-->
+        </div>
+        <label for="name" id="search">
+          <img class="" src="./img/search.png" />
+        </label>
+        <!-- burger-->
+        <div class="burger__menu" name="burgers">
+          <img
+            class="burger__img"
+            src="./img/picture__x.png"
+            onclick="return valid1()"
+          />
+          <ul type="none">
+            <li class="burgre__link"><a href="#">Термины</a></li>
+            <li class="burgre__link"><a href="#">Видео</a></li>
+          </ul>
+          <select class="burgre__link" id="list">
+            <option selected="selected">Буларусь</option>
+            <option>Оценки</option>
+            <option>Оценки</option>
+            <option>Оценки</option>
+          </select>
+          <div class="burgre__link" id="socials__burger">
+            <div><a class="socials-text" href="#">Социальные сети</a></div>
+            <div>
+              <img class="socials-text" src="./img/icon-telegram.png" />
+              <img class="socials-text" src="./img/icon-youtube.png" />
+            </div>
+          </div>
+        </div>
+        <!-- burger-->
+      </div>
+    </nav>
+    <article>
+      <div class="container">
+        <div class="article">
+          <div class="page">
+            <div class="text">
+              <div><h1>Про финансы и инвестиции простыми словами</h1></div>
+              <div class="btn1">
+                <button href="#" class="btn">Термины</button>
+                <button href="#" class="btn">Видео</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <div class="content-info">
+            <button id="icon" class="section">
+              <img src="./img/icon.png" />
+              <label>Все инвестиционные понятия в разделе термины</label>
+            </button>
+          </div>
+          <div class="content-info">
+            <button id="video" class="section">
+              <img src="./img/icon-video.png" />
+              <label>Делаем короткие мультики на тему финансов</label>
+            </button>
+          </div>
+          <div class="content-info">
+            <button id="analytic" class="section">
+              <img src="./img/icon-analytic.png" />
+              <label>Представляем аналитику по белорусским компаниям </label>
+            </button>
+          </div>
+        </div>
+
+        <div class="content__slider slider">
+          <div class="content-info">
+            <button id="icon" class="section">
+              <img src="./img/icon.png" />
+              <label>Все инвестиционные понятия в разделе термины</label>
+            </button>
+          </div>
+          <div class="content-info">
+            <button id="video" class="section">
+              <img src="./img/icon-video.png" />
+              <label>Делаем короткие мультики на тему финансов</label>
+            </button>
+          </div>
+          <div class="content-info">
+            <button id="analytic" class="section">
+              <img src="./img/icon-analytic.png" />
+              <label>Представляем аналитику по белорусским компаниям </label>
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <footer>
+      <div class="aside">
+        <div class="socials">
+          <div><img id="logo" src="./img/logo.png" /></div>
+          <div>
+            <a class="socials-text" href="#">Социальные сети</a>
+            <img class="socials-text" src="./img/icon-telegram.png" />
+            <img class="socials-text" src="./img/icon-youtube.png" />
+          </div>
+        </div>
+        <div id="footer-socials" class="socials">
+          <ul type="none">
+            <li><a href="#">Видео</a></li>
+            <li><a href="#">Термины</a></li>
+          </ul>
+        </div>
+        <div id="footer-socials" class="socials">
+          <ul type="none">
+            <li><a href="#">Беларусь</a></li>
+            <li><a href="#">Карта рынка облигаций</a></li>
+            <li><a href="#">Оценки эмитентов</a></li>
+            <li><a href="#">Оценки банков</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="aside-text">
+        <label> © 2020 ЭБ Беларусь . Все права защищены. </label>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+
+    <script
+      src="./js/script.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+  </body>
+</html>

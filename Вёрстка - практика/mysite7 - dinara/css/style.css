@@ -1,0 +1,545 @@
+@import "./main.css";
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1000;
+  padding: 5px 0;
+}
+.header__logo {
+  width: auto;
+  height: 60px;
+}
+.header__phone {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.main {
+  width: 100%;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #f2f2f2;
+}
+.main__content {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+  flex-direction: column;
+  text-align: center;
+}
+.main__subtitle {
+  font-size: 16px;
+}
+.title {
+  font-size: 64px;
+  line-height: 1.23;
+  font-weight: 700;
+  font-family: "Arsenal", Arial, sans-serif;
+  max-width: 960px;
+  margin: 0;
+}
+.main__text {
+  font-size: 20px;
+}
+/*-----------------------------------------------------------*/
+.section-info {
+  padding: 100px 0;
+  text-align: center;
+  background: #f2f2f2;
+}
+.section-info__text {
+  font-size: 24px;
+}
+.main__inputblock {
+  text-align: left;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.inputblock__title {
+  margin: 10px 0;
+}
+.main__inputs {
+  display: flex;
+  justify-content: center;
+}
+.main__input {
+  text-align: center;
+  margin-right: 20px;
+  height: 55px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.main-btn {
+  max-width: 150px;
+  color: #ffffff;
+  background-color: #8d41c1;
+}
+.section-info__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.section-info__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+  width: 350px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: red;
+
+  /* background-image: url("../images/background.jpg");
+    */
+}
+.section-info__button {
+  position: relative;
+  top: -70px;
+  opacity: 0;
+  z-index: 0;
+  transition: 0.5s;
+  background: inherit;
+  border: solid 3px white;
+  border-radius: 20px;
+  padding: 15px;
+  color: white;
+}
+.card-info__text {
+  z-index: 2;
+  height: 100px;
+  padding-top: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  color: white;
+}
+.section-info__card:hover .card-info__text {
+  margin-bottom: 50px;
+}
+.section-info__card:hover .section-info__button {
+  margin-top: 50px;
+  opacity: 1;
+}
+
+.section-features {
+  text-align: center;
+}
+.section-features__h1 {
+  font-size: 42px;
+  line-height: 1.23;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 700;
+  padding-top: 24px;
+}
+.section-features__h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 400;
+}
+.section-features__blocks {
+  display: flex;
+  justify-content: space-around;
+}
+.section-features__block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 300px;
+}
+.section-features__block img {
+  width: 50%;
+  padding: 24px;
+}
+.section-features__boldtext {
+  margin-top: 0;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.35;
+}
+.section-features__simpletext {
+  font-size: 16px;
+  line-height: 1.55;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 400;
+}
+.section-features__block_icon,
+.section-features__block_icon img {
+  width: 45px;
+  height: 45px;
+}
+.section-features__block_strings {
+  display: flex;
+
+  text-align: center;
+}
+.adress {
+  text-align: center;
+}
+.adress__blocks {
+  display: flex;
+}
+.adress__h1 {
+  font-size: 42px;
+  line-height: 1.23;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.adress__h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.adress__little-photos {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.adress__little-photo {
+  width: 65px;
+  height: 65px;
+  margin: 3px;
+}
+.adress__photos .adress__main-photo img {
+  width: 100%;
+}
+.adress__little-photo:hover + .adress__main-photo {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.adress__main-photo {
+  margin-left: 10px;
+}
+.adress__boldtext {
+  margin-top: 0;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.35;
+}
+.adress__simpletext {
+  font-size: 14px;
+  line-height: 1.55;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 400;
+}
+.adress__photos {
+  width: 70%;
+}
+.adress__text {
+  align-items: center;
+  margin-left: 30px;
+  text-align: left;
+}
+.adress__button {
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 40px;
+  padding: 15px 0px;
+  transition: 0.3s;
+  color: #ffffff;
+  width: 90%;
+  font-size: 16px;
+  background-color: #8d41c1;
+}
+.adress__button:hover {
+  background-color: #6929c4;
+}
+.feedback {
+  text-align: center;
+}
+.feedback__blocks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.feedback__h1 {
+  font-size: 42px;
+  line-height: 1.23;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 700;
+  margin: 24px 0 30px 0;
+}
+.feedback__h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+.feedback__person {
+  display: flex;
+  margin-bottom: 80px;
+  text-align: left;
+}
+.feedback__content {
+  flex: 0 0 48%;
+}
+.feedback__text {
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  background: #eeeeee;
+  font-size: 18px;
+  line-height: 1.55;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.feedback__little-photo {
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+}
+.footer {
+  text-align: center;
+  background-color: #171717;
+  padding: 50px;
+}
+.footer__h1 {
+  font-size: 14px;
+  color: white;
+  margin: 20px;
+}
+.footer__h2 {
+  font-family: "Arsenal", Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.contact {
+  position: relative;
+  height: 100%;
+}
+.contact__text {
+  width: 400px;
+  top: 25px;
+  background: #2e2e2e;
+  position: absolute;
+  left: 200px;
+  line-height: 1px;
+  border-radius: 10px;
+  padding: 25px;
+}
+.contact__boldtext {
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+  line-height: 1.35;
+  margin: 10px 0;
+}
+.contact__simpletext {
+  color: white;
+  line-height: 1.55;
+  font-family: "Arsenal", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.contact__link img {
+  margin: 5px 15px 0px 0px;
+}
+.map {
+  height: 600px;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .title {
+    font-size: 40px;
+  }
+  .main__inputs {
+    flex-wrap: wrap;
+  }
+  .main__input {
+    margin-bottom: 24px;
+  }
+  .main__inputs {
+    flex-wrap: wrap;
+  }
+  .section-features__h1 {
+    font-size: 40px;
+    padding: 24px 0px;
+  }
+  .section-info__card {
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+  }
+  .section-features__blocks {
+    margin: 24px 0;
+  }
+  .section-features__boldtext {
+    font-size: 18px;
+  }
+  .section-features__simpletext {
+    font-size: 14px;
+  }
+  .section-features__blocks {
+    flex-wrap: wrap;
+  }
+  .feedback__h1 {
+    margin: 40px 0 30px 0;
+  }
+  .contact__text {
+    left: 55px;
+  }
+
+  .map {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__phone {
+    font-size: 20px;
+  }
+  .main__input {
+    margin-left: 24px;
+    margin-bottom: 18px;
+    width: 70%;
+  }
+  .inputblock__title {
+    margin: 10px 50px;
+  }
+  .main__content {
+    margin-top: 70px;
+  }
+  .main__text {
+    font-size: 16px;
+    margin: 10px 0px;
+  }
+  .main__inputblock {
+    margin-top: 0px;
+  }
+  .section-info {
+    padding: 30px 0;
+  }
+  .section-info__cards {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .section-info__card {
+    width: 90%;
+    height: 250px;
+    margin: 7px;
+  }
+  .section-features__block_strings {
+    margin: 10px 0px;
+  }
+  .adress__h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .adress__h2 {
+    margin-bottom: 0px;
+  }
+  .adress__blocks {
+    flex-wrap: wrap;
+  }
+  .adress__photos {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .feedback__h1,
+  .section-features__h1 {
+    font-size: 32px;
+  }
+  .feedback__h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .feedback__content {
+    flex: 0 0 100%;
+  }
+  .feedback__text {
+    margin-bottom: 20px;
+  }
+  .feedback__person {
+    margin-bottom: 40px;
+  }
+  .contact {
+    height: auto;
+  }
+  .contact__text {
+    width: 100%;
+    top: 35px;
+    position: static;
+  }
+  .footer {
+    padding: 10px;
+  }
+  .footer__h1 {
+    font-size: 14px;
+    color: white;
+    margin: 0 10px 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  p {
+    font-size: 15px;
+  }
+  .main__subtitle,
+  .main__text {
+    display: none;
+  }
+  .main__content {
+    height: 550px;
+    margin-top: 10px;
+  }
+  .title,
+  .main-title,
+  .section-features__h1,
+  .adress__h1,
+  .feedback__h1 {
+    font-size: 25px;
+    margin: 10px 0px;
+  }
+  .section-info__text,
+  .section-features__h2,
+  .adress__h2,
+  .feedback__h2,
+  .contact__boldtext {
+    font-size: 17px;
+  }
+  .main__input {
+    margin-bottom: 10px;
+    width: 90%;
+    height: 45px;
+  }
+  .contact__simpletext,
+  .feedback__text,
+  .feedback__person {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .section-features__block img {
+    padding: 5px;
+  }
+}

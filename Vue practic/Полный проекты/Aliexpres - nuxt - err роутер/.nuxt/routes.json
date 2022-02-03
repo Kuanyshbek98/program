@@ -1,0 +1,83 @@
+[
+  {
+    "name": "basket",
+    "path": "/basket/",
+    "component": "C:\\\\Users\\\\1\\\\Desktop\\\\ms\\\\pages\\\\basket\\\\index.vue",
+    "chunkName": "pages/basket/index",
+    "pathToRegexpOptions": {
+      "strict": true
+    }
+  },
+  {
+    "name": "cats",
+    "path": "/cats/",
+    "component": "C:\\\\Users\\\\1\\\\Desktop\\\\ms\\\\pages\\\\cats\\\\index.vue",
+    "chunkName": "pages/cats/index",
+    "pathToRegexpOptions": {
+      "strict": true
+    }
+  },
+  {
+    "name": "home",
+    "path": "/home/",
+    "component": "C:\\\\Users\\\\1\\\\Desktop\\\\ms\\\\pages\\\\home.vue",
+    "chunkName": "pages/home",
+    "pathToRegexpOptions": {
+      "strict": true
+    }
+  },
+  {
+    "name": "error-401",
+    "path": "/error/401/",
+    "component": "C:\\\\Users\\\\1\\\\Desktop\\\\ms\\\\pages\\\\error\\\\401.vue",
+    "chunkName": "pages/error/401",
+    "pathToRegexpOptions": {
+      "strict": true
+    }
+  },
+  {
+    "name": "cats-name",
+    "path": "/cats/:name/",
+    "component": "C:\\\\Users\\\\1\\\\Desktop\\\\ms\\\\pages\\\\cats\\\\_name.vue",
+    "chunkName": "pages/cats/_name",
+    "pathToRegexpOptions": {
+      "strict": true
+    }
+  },
+  {
+    "name": "chat-id",
+    "path": "/chat/:id?/",
+    "component": "C:\\\\Users\\\\1\\\\Desktop\\\\ms\\\\pages\\\\chat\\\\_id.vue",
+    "chunkName": "pages/chat/_id",
+    "pathToRegexpOptions": {
+      "strict": true
+    }
+  },
+  {
+    "name": "product-id",
+    "path": "/product/:id?/",
+    "component": "C:\\\\Users\\\\1\\\\Desktop\\\\ms\\\\pages\\\\product\\\\_id.vue",
+    "chunkName": "pages/product/_id",
+    "pathToRegexpOptions": {
+      "strict": true
+    }
+  },
+  {
+    "name": "profile-type",
+    "path": "/profile/:type?/",
+    "component": "C:\\\\Users\\\\1\\\\Desktop\\\\ms\\\\pages\\\\profile\\\\_type.vue",
+    "chunkName": "pages/profile/_type",
+    "pathToRegexpOptions": {
+      "strict": true
+    }
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\1\\\\Desktop\\\\ms\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "pathToRegexpOptions": {
+      "strict": true
+    }
+  }
+]

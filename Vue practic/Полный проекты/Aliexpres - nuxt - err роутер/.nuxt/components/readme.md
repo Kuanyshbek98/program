@@ -1,0 +1,48 @@
+# Discovered Components
+
+This is an auto-generated list of components discovered by [nuxt/components](https://github.com/nuxt/components).
+
+You can directly use them in pages and other components without the need to import them.
+
+**Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
+
+- `<Spinner>` | `<spinner>` (components/global/spinner.vue)
+- `<Background>` | `<background>` (components/background.vue)
+- `<Base>` | `<base>` (components/base.vue)
+- `<EmptyBlock>` | `<empty-block>` (components/emptyBlock.vue)
+- `<AuthBlock>` | `<auth-block>` (components/auth/authBlock.vue)
+- `<AuthAuthorizationBlock>` | `<auth-authorization-block>` (components/auth/authorizationBlock.vue)
+- `<AuthCodeConfirm>` | `<auth-code-confirm>` (components/auth/codeConfirm.vue)
+- `<AuthPasswordChange>` | `<auth-password-change>` (components/auth/passwordChange.vue)
+- `<AuthPasswordRecovery>` | `<auth-password-recovery>` (components/auth/passwordRecovery.vue)
+- `<AuthRegistrationBlock>` | `<auth-registration-block>` (components/auth/registrationBlock.vue)
+- `<BasketEmpty>` | `<basket-empty>` (components/basket/empty.vue)
+- `<ChatBottom>` | `<chat-bottom>` (components/chat/bottom.vue)
+- `<ChatItem>` | `<chat-item>` (components/chat/item.vue)
+- `<ChatLeft>` | `<chat-left>` (components/chat/left.vue)
+- `<ChatMessage>` | `<chat-message>` (components/chat/message.vue)
+- `<ChatRight>` | `<chat-right>` (components/chat/right.vue)
+- `<CommonBigProduct>` | `<common-big-product>` (components/common/bigProduct.vue)
+- `<CommonBox>` | `<common-box>` (components/common/box.vue)
+- `<CommonCatBrief>` | `<common-cat-brief>` (components/common/catBrief.vue)
+- `<CommonProductBrief>` | `<common-product-brief>` (components/common/productBrief.vue)
+- `<Footer>` | `<footer>` (components/footer/footer.vue)
+- `<Header>` | `<header>` (components/header/header.vue)
+- `<HomeCats>` | `<home-cats>` (components/home/cats.vue)
+- `<ProductAddReview>` | `<product-add-review>` (components/product/addReview.vue)
+- `<ProductComment>` | `<product-comment>` (components/product/comment.vue)
+- `<ProductImage>` | `<product-image>` (components/product/image.vue)
+- `<ProductInfo>` | `<product-info>` (components/product/info.vue)
+- `<ProductReview>` | `<product-review>` (components/product/review.vue)
+- `<ProductSeller>` | `<product-seller>` (components/product/seller.vue)
+- `<ProductSimilar>` | `<product-similar>` (components/product/similar.vue)
+- `<ProfileControlBlock>` | `<profile-control-block>` (components/profile/controlBlock.vue)
+- `<ProfileFavorite>` | `<profile-favorite>` (components/profile/favorite.vue)
+- `<ProfileMyCarts>` | `<profile-my-carts>` (components/profile/myCarts.vue)
+- `<ProfileOrderBlock>` | `<profile-order-block>` (components/profile/orderBlock.vue)
+- `<ProfileOrdersBlock>` | `<profile-orders-block>` (components/profile/ordersBlock.vue)
+- `<ProfileBlock>` | `<profile-block>` (components/profile/profileBlock.vue)
+- `<ProfileStatic>` | `<profile-static>` (components/profile/static.vue)
+- `<ProfileSubscribers>` | `<profile-subscribers>` (components/profile/subscribers.vue)
+- `<SliderBanner>` | `<slider-banner>` (components/slider/banner.vue)
+- `<SliderProducts>` | `<slider-products>` (components/slider/products.vue)

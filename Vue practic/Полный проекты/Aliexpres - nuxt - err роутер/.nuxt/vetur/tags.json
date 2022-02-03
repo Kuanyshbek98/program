@@ -1,0 +1,122 @@
+{
+  "Spinner": {
+    "description": "Auto imported from components/global/spinner.vue"
+  },
+  "Background": {
+    "description": "Auto imported from components/background.vue"
+  },
+  "Base": {
+    "description": "Auto imported from components/base.vue"
+  },
+  "EmptyBlock": {
+    "description": "Auto imported from components/emptyBlock.vue"
+  },
+  "AuthBlock": {
+    "description": "Auto imported from components/auth/authBlock.vue"
+  },
+  "AuthAuthorizationBlock": {
+    "description": "Auto imported from components/auth/authorizationBlock.vue"
+  },
+  "AuthCodeConfirm": {
+    "description": "Auto imported from components/auth/codeConfirm.vue"
+  },
+  "AuthPasswordChange": {
+    "description": "Auto imported from components/auth/passwordChange.vue"
+  },
+  "AuthPasswordRecovery": {
+    "description": "Auto imported from components/auth/passwordRecovery.vue"
+  },
+  "AuthRegistrationBlock": {
+    "description": "Auto imported from components/auth/registrationBlock.vue"
+  },
+  "BasketEmpty": {
+    "description": "Auto imported from components/basket/empty.vue"
+  },
+  "ChatBottom": {
+    "description": "Auto imported from components/chat/bottom.vue"
+  },
+  "ChatItem": {
+    "description": "Auto imported from components/chat/item.vue"
+  },
+  "ChatLeft": {
+    "description": "Auto imported from components/chat/left.vue"
+  },
+  "ChatMessage": {
+    "description": "Auto imported from components/chat/message.vue"
+  },
+  "ChatRight": {
+    "description": "Auto imported from components/chat/right.vue"
+  },
+  "CommonBigProduct": {
+    "description": "Auto imported from components/common/bigProduct.vue"
+  },
+  "CommonBox": {
+    "description": "Auto imported from components/common/box.vue"
+  },
+  "CommonCatBrief": {
+    "description": "Auto imported from components/common/catBrief.vue"
+  },
+  "CommonProductBrief": {
+    "description": "Auto imported from components/common/productBrief.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/footer/footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/header/header.vue"
+  },
+  "HomeCats": {
+    "description": "Auto imported from components/home/cats.vue"
+  },
+  "ProductAddReview": {
+    "description": "Auto imported from components/product/addReview.vue"
+  },
+  "ProductComment": {
+    "description": "Auto imported from components/product/comment.vue"
+  },
+  "ProductImage": {
+    "description": "Auto imported from components/product/image.vue"
+  },
+  "ProductInfo": {
+    "description": "Auto imported from components/product/info.vue"
+  },
+  "ProductReview": {
+    "description": "Auto imported from components/product/review.vue"
+  },
+  "ProductSeller": {
+    "description": "Auto imported from components/product/seller.vue"
+  },
+  "ProductSimilar": {
+    "description": "Auto imported from components/product/similar.vue"
+  },
+  "ProfileControlBlock": {
+    "description": "Auto imported from components/profile/controlBlock.vue"
+  },
+  "ProfileFavorite": {
+    "description": "Auto imported from components/profile/favorite.vue"
+  },
+  "ProfileMyCarts": {
+    "description": "Auto imported from components/profile/myCarts.vue"
+  },
+  "ProfileOrderBlock": {
+    "description": "Auto imported from components/profile/orderBlock.vue"
+  },
+  "ProfileOrdersBlock": {
+    "description": "Auto imported from components/profile/ordersBlock.vue"
+  },
+  "ProfileBlock": {
+    "description": "Auto imported from components/profile/profileBlock.vue"
+  },
+  "ProfileStatic": {
+    "description": "Auto imported from components/profile/static.vue"
+  },
+  "ProfileSubscribers": {
+    "description": "Auto imported from components/profile/subscribers.vue"
+  },
+  "SliderBanner": {
+    "description": "Auto imported from components/slider/banner.vue"
+  },
+  "SliderProducts": {
+    "description": "Auto imported from components/slider/products.vue"
+  }
+}

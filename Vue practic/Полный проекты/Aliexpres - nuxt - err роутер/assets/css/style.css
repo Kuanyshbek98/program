@@ -1,0 +1,38 @@
+
+.partners-block .swiper-wrapper {
+  align-items: center;
+  padding: 30px 0;
+}
+.reserve-info-carousel .swiper-container {
+  padding-top: 60px;
+  margin-top: -44px;
+}
+.reserve-info-carousel .swiper-button-prev:after, .reserve-info-carousel .swiper-button-next:after {
+  display: none;
+}
+.reserve-info-carousel .swiper-button-prev, .reserve-info-carousel .swiper-button-next {
+  top: 23px;
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  text-align: center;
+  line-height: 40px;
+  border: 0.5px solid rgba(26, 32, 44, 0.12);
+  border-radius: 50% 50%;
+}
+.reserve-info-carousel .swiper-button-prev {
+  transform: rotate(180deg);
+  left: auto;
+  right: 64px;
+}
+/*-------------------------------------------*/
+.products-slider .swiper-button-prev:after, .products-slider .swiper-button-next:after {
+  content: none;
+}
+.swiper-button-prev, .swiper-button-next {
+  top: 24px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: auto;
+  right: 72px;
+}
